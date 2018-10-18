@@ -7,16 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="lstAlumnos" HorizontalAlignment="Left" Height="356" Margin="10,53,0,0" VerticalAlignment="Top" Width="173" SelectionChanged="lstAlumnos_SelectionChanged">
-   
+        <ListBox x:Name="lstAlumnos" HorizontalAlignment="Left" Height="356" Margin="10,53,0,0" VerticalAlignment="Top" Width="173" SelectionChanged="lstAlumnos_SelectionChanged" FontFamily="Adobe Gothic Std B">
+
         </ListBox>
-        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Alumnos:" VerticalAlignment="Top" Height="28" Width="154"/>
-        <TextBlock HorizontalAlignment="Left" Margin="236,10,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblNombre" HorizontalAlignment="Left" Margin="236,31,0,0" TextWrapping="Wrap" Text="Nombre Del Alumno" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="236,86,0,0" TextWrapping="Wrap" Text="Matricula:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblMatricula" HorizontalAlignment="Left" Margin="236,107,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="236,154,0,0" TextWrapping="Wrap" Text="Carrera:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblCarrera" HorizontalAlignment="Left" Margin="234,175,0,0" TextWrapping="Wrap" Text="Nombre De Carrera" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Alumnos:" VerticalAlignment="Top" Height="28" Width="154" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock HorizontalAlignment="Left" Margin="236,10,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock x:Name="lblNombre" HorizontalAlignment="Left" Margin="236,31,0,0" TextWrapping="Wrap" Text="Nombre Del Alumno" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock HorizontalAlignment="Left" Margin="236,86,0,0" TextWrapping="Wrap" Text="Matricula:" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock x:Name="lblMatricula" HorizontalAlignment="Left" Margin="236,107,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock HorizontalAlignment="Left" Margin="236,154,0,0" TextWrapping="Wrap" Text="Carrera:" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock x:Name="lblCarrera" HorizontalAlignment="Left" Margin="234,175,0,0" TextWrapping="Wrap" Text="Nombre De Carrera" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock HorizontalAlignment="Left" Margin="496,10,0,0" TextWrapping="Wrap" Text="Materias" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock HorizontalAlignment="Left" Margin="674,13,0,0" TextWrapping="Wrap" Text="Clave:" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
+        <ListBox x:Name="lstMaterias" SelectionChanged="lstMaterias_SelectionChanged"  HorizontalAlignment="Left" Height="356" Margin="496,53,0,0" VerticalAlignment="Top" Width="161" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock Name="lblClaveMateria"  HorizontalAlignment="Left" Margin="674,34,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock HorizontalAlignment="Left" Margin="674,86,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
+        <TextBlock Name="lblMateria" HorizontalAlignment="Left" Margin="674,110,0,0" TextWrapping="Wrap" Text="Materia" VerticalAlignment="Top" FontFamily="Adobe Gothic Std B"/>
 
     </Grid>
 </Window>
